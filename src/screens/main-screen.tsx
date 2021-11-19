@@ -10,12 +10,12 @@ import NavBar from '../components/navbar'
 const initialData = [
   {
     id: shortid.generate(),
-    subject: 'Buy movie tickets for Friday',
+    subject: 'Go to the store',
     done: false
   },
   {
     id: shortid.generate(),
-    subject: 'Make a React Native tutorial',
+    subject: 'Make a breakfast',
     done: false
   }
 ]
@@ -65,10 +65,7 @@ export default function MainScreen() {
       bg={useColorModeValue('warmGray.50', 'primary.900')}
       w="full"
     >
-      <Masthead
-        title="What's up, Takuya!"
-        image={require('../assets/masthead.png')}
-      >
+      <Masthead title="What's up!" image={require('../assets/masthead.png')}>
         <NavBar />
       </Masthead>
       <VStack

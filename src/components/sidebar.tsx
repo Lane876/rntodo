@@ -59,7 +59,7 @@ const Sidebar = (props: DrawerContentComponentProps) => {
           borderWidth={3}
         />
         <Heading mb={4} size="xl">
-          Takuya Matsuyama
+          Milan Milenkovic
         </Heading>
         <MenuButton
           active={currentRoute === 'Main'}
